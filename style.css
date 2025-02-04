@@ -34,3 +34,44 @@ body {
     letter-spacing: 0.3px;
     margin: 20px 0;
 }
+
+.container span{
+    font-size: 12px;
+}
+
+.container a{
+    color: #333;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 15px 0px 10px;
+}
+
+.container button{
+    background-color: #512da8;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.container button.hidden{
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.container form{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+}
+
